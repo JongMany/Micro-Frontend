@@ -20,7 +20,7 @@ module.exports = {
       filename: 'remoteEntry.js',
       // export할 모듈 지정
       exposes: {
-        './ProductsIndex': './src/index',
+        './ProductsIndex': './src/bootstrap',
       },
       shared: ['faker'],
     }),
