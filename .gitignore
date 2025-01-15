@@ -3,10 +3,13 @@
 
 ### react ###
 .DS_*
+.DS_Store
 *.log
 logs
 **/*.backup.*
 **/*.back.*
+
+dist
 
 node_modules
 bower_components
