@@ -10,7 +10,7 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js', // Caching
-    // publicPath: '/container/latest/',
+    publicPath: '/marketing/latest/', // remoteEntry.js will be served from this path
   },
   plugins: [
     new ModuleFederationPlugin({
