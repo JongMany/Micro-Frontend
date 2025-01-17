@@ -14,6 +14,11 @@ dist
 node_modules
 bower_components
 
+.env 
+*.env.local 
+*.env.development 
+*.env.test 
+*.env.production
 *.sublime*
 
 psd
